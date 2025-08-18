@@ -31,7 +31,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 application.add_handler(CommandHandler("start", start))
 
 # Flask app (مطلوب من Vercel)
-flask_app = Flask(__name__)
+flask_app = Flask(Telegram )
 
 @flask_app.route("/")
 def home():

@@ -6,7 +6,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # التوكن من متغير البيئة
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("7653495962:AAF_mpEDM_2i1YTU94OjGTvwRfat_K9MJeY")
 
 # إعداد التسجيل
 logging.basicConfig(
